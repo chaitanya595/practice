@@ -12,7 +12,7 @@ public class LoopApplication extends SpringBootServletInitializer {
 		SpringApplication.run(LoopApplication.class, args);
 	}
 
-	@override
+	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 	    return builder.sources(LoopApplication.class);
 	}
